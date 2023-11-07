@@ -15,12 +15,12 @@ MonoBehaviour:
   lightingModel: 0
   useFlatLighting: 0
   renderQueueIndex: 0
-  color: {r: 0.5137255, g: 0.65882355, b: 0.60554975, a: 0.2}
+  color: {r: 0.077874675, g: 0.29998073, b: 0.4716981, a: 0.7529412}
   specColor: {r: 0.14150941, g: 0.13667007, b: 0.12215199, a: 1}
   smoothness: 0.7
-  enableLightAbsorption: 1
-  depthColor: {r: 0.28835884, g: 0.35119063, b: 0.4528302, a: 0.85}
-  maxDepth: 10
+  enableLightAbsorption: 0
+  depthColor: {r: 0.07062123, g: 0.2958604, b: 0.6509434, a: 0.85}
+  maxDepth: 5
   enableFoam: 0
   foamColor: {r: 1, g: 1, b: 1, a: 1}
   foamDistance: 1.2
@@ -53,11 +53,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   reflectCustomSkybox: 0
-  reflectionDistortionStrength: 25
-  enableRefraction: 0
-  refractionDistortionStrength: 25
+  reflectionDistortionStrength: 3
+  enableRefraction: 1
+  refractionDistortionStrength: 0.1
   enableCaustic: 0
   causticTexture: {fileID: 2800000, guid: eeacbffe8eb46d343b0d7a9189130772, type: 3}
-  causticSize: 10
+  causticSize: 1
   causticStrength: 0.5
-  causticDistortionStrength: 25
+  causticDistortionStrength: 5
